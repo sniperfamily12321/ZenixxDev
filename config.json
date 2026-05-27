@@ -1,0 +1,100 @@
+{
+  "prefix": "?",
+  "ownerUsername": "zenixx.dev",
+  "status": "working for zenixx dev",
+  "statusType": "PLAYING",
+  "roles": [
+    {
+      "name": "👑 ． OWNER ． <3",
+      "color": "#FF0055",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": ["Administrator"],
+      "type": "owner"
+    },
+    {
+      "name": "🛡️ ． MODERATOR ． <3",
+      "color": "#E74C3C",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": [
+        "ManageRoles",
+        "ManageChannels",
+        "KickMembers",
+        "BanMembers",
+        "ManageMessages",
+        "MuteMembers",
+        "DeafenMembers",
+        "MoveMembers"
+      ],
+      "type": "moderator"
+    },
+    {
+      "name": "🔨 ． STAFF ． <3",
+      "color": "#2ECC71",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": ["KickMembers", "ManageMessages", "MuteMembers"],
+      "type": "staff"
+    },
+    {
+      "name": "🤖 ． BOTS ． <3",
+      "color": "#9B59B6",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": ["Administrator"],
+      "type": "bot"
+    },
+    {
+      "name": "． Members ． <3",
+      "color": "#3498DB",
+      "hoist": false,
+      "mentionable": false,
+      "permissions": [
+        "ViewChannel",
+        "SendMessages",
+        "EmbedLinks",
+        "AttachFiles",
+        "ReadMessageHistory",
+        "UseExternalEmojis",
+        "AddReactions",
+         "Connect",
+        "Speak"
+      ],
+      "type": "member"
+    }
+  ],
+  "channels": [
+    {
+      "category": "💎・WELCOME・ZONE",
+      "items": [
+        { "name": "📢・server・updates", "type": "GuildText", "topic": "Official announcements and updates from ZENIXX DEV" },
+        { "name": "🎨・announcements", "type": "GuildText", "topic": "Community updates and notifications" },
+        { "name": "👋・welcome・leave", "type": "GuildText", "topic": "Welcome new members to ZENIXX DEV!" }
+      ]
+    },
+    {
+      "category": "💬・COMMUNITY・ZONE",
+      "items": [
+        { "name": "💬・global・chat", "type": "GuildText", "topic": "Main room for general community conversation" },
+        { "name": "👾・bot・commands", "type": "GuildText", "topic": "Execute bot commands here" },
+        { "name": "📷・media・share", "type": "GuildText", "topic": "Share photos, videos, and UI mockups here" }
+      ]
+    },
+    {
+      "category": "🎫・SUPPORT・PORTAL",
+      "items": [
+        { "name": "🎫・open・ticket", "type": "GuildText", "topic": "Open a support ticket for customized scripts or assistance" },
+        { "name": "🛠️・dev・support", "type": "GuildText", "topic": "Discuss technical issues or development questions" }
+      ]
+    },
+    {
+      "category": "🔊・VOICE・ZONE",
+      "items": [
+        { "name": "🔊・general・lounge", "type": "GuildVoice" },
+        { "name": "🎮・gaming・room", "type": "GuildVoice" },
+        { "name": "🎵・music・lounge", "type": "GuildVoice" }
+      ]
+    }
+  ]
+}

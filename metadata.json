@@ -1,0 +1,6 @@
+{
+  "name": "ZENIXX DEV Bot Manager",
+  "description": "Comprehensive Discord Bot manager, server configurator, and web control panel for ZENIXX DEV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
